@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>booking page</title>
+    <link rel="icon" href="zomatologo.png">
+    <style>
+    .back{
+    background-image:linear-gradient(rgba(87, 93, 92, 0.87), rgba(29, 31, 30, 0.276));
+    height: 600px;
+}
+marquee{
+    color: #171515;
+    font-family: cursive;
+    font-size: 30PX;
+    border: 0.5px solid black;
+    border-radius: 12px;
+    margin-left: 390px;
+    margin-right: 400px;
+    background-image: linear-gradient(rgba(255, 0, 0, 0.459),rgba(255, 166, 0, 0.491));
+    position: relative;
+}
+marquee:hover{
+  transform: scale(1.1);
+  background-color: rgb(0, 0, 0);
+}
+.form{
+  background-image:linear-gradient(rgba(65, 62, 62, 0.363),rgba(6, 5, 5, 0.913));
+  margin-left: 400px;
+  margin-right: 500px;
+  border: 5px solid rgb(246, 245, 245);
+  height: 300px;
+  width: 400px;
+  border-radius: 50px;
+  box-shadow: 1px 10px 10px 10px rgba(241, 40, 5, 0.313) ;
+  margin-top: 20PX;
+}
+#title{
+    color: rgb(8, 9, 10);
+    margin-left: 120px;
+    font-size:35px;
+}  
+.res{
+  
+    height: 35px;
+    width: 280px;
+    background:linear-gradient(rgba(238, 0, 0, 0.5), rgba(194, 22, 22, 0.5)), transparent;
+    color: rgb(235, 226, 226);
+    padding-right: 40px;
+    margin-left:60px ;
+}
+.res1{
+  height: 35px;
+    width: 235px;
+    background:linear-gradient(rgba(238, 0, 0, 0.5), rgba(194, 22, 22, 0.5)), transparent;
+    color: rgb(235, 226, 226);
+    padding-right: 40px;
+    margin-left:60px ;
+  
+}
+.res2{
+  height: 35px;
+    width: 235px;
+    background:linear-gradient(rgba(238, 0, 0, 0.5), rgba(194, 22, 22, 0.5)), transparent;
+    color: rgb(235, 226, 226);
+margin-right: 300px;
+padding-right: 100px;
+margin-left: 0px;
+}
+button{
+  margin-left: 100px;
+  font-size: 30px;
+  background-image: linear-gradient(rgba(26, 21, 21, 0.5), rgb(210, 19, 19));
+  font-family: 'Arial Narrow Bold';
+}
+button:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: cubic-bezier(0.165, 0.84, 0.44, 1);
+  border-radius: 12px;
+  background-image: linear-gradient(green,green);
+  
+}
+  
+    </style>
+      </head>
+<body>
+  <div class="back">
+    <marquee behavior="" direction="" class="book">Book your  favorite Restaurant/Club</marquee>
+    <div class="form">
+      
+           <form action="thankyou2.html">
+              <h2 id="title">Book now</h2>
+                <input type="search" class="res" list="search" required placeholder="select Restaurant">
+                    <datalist id="search">
+                        <option>10th wala Restaurant </option>
+                        <option>Singles Restaurant </option>
+                        <option>Rowdy Restaurant </option>
+                        <option>Bhai Restaurant  </option>
+                        <option>Naruto Restaurant </option>
+                        <option>one piece </option>
+                        <option> akatski club </option>
+                        <option>snake club </option>
+                        <option> dragon  club</option>
+                        <option> luffy club </option>
+                        <option>gojo's club </option>
+                        <option>yuji's club </option>
+                   </datalist>
+                   <input type="text" class="res1" placeholder="fee" list="price">
+                   <datalist id="price">
+                    <option>RS 999/-</option>
+                  </datalist>
+                  <input type="checkbox" class="res2">
+                  <button>book now</button>
+              </div>
+             
+            </form>
+        </div>
+  </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

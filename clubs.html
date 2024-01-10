@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>clubs//online</title>
+    <link rel="icon" href="zomatologo.png">
+<style>
+        #title{
+font-family: 'Segoe UI';
+font-size: 50px;
+        }
+        #subtitle{
+            font-size: x-large;
+            font-family: italic;
+        }
+.box{
+    border-radius: 12px;
+    box-shadow: 1px 2px ;
+    padding-left: 10px;
+    margin-left: 30px;
+}
+.box:hover
+{
+    border-radius: 13px;
+    transform: scale(1.1);
+    box-shadow: 2px 5px 10px rgb(194, 247, 240);
+
+}
+.food{
+margin-left:0px ;
+padding-left:10px;
+gap: 20px;
+width: fit-content;
+height: fit-content;
+display: flex;
+}
+.name1:hover{
+    border-radius: 13px;
+    transform: scale(1.1);
+    box-shadow: 2px 5px 10px rgb(236, 160, 31);
+    
+
+}
+#quote{
+    font-size:30px;
+}
+.nav a
+{ 
+    margin-top: 10px;
+    float: right;
+    margin-right:  30px;
+    margin-left: 10px;
+    color:rgb(3, 2, 2);
+    font-size: 17px;
+    text-decoration: none;
+    border: px solid rgba(16, 16, 16, 0.811);
+    box-shadow:2px 5px rgba(3, 3, 3, 0.811) ;
+    border-radius: 11px;
+}
+#qoute1{
+    color:rgba(240, 229, 229, 0.986);
+    margin-left: 500px;
+    margin-right: 450px;
+    padding-left: 10px;
+    border: 2px solid rgb(249, 249, 249);
+    background-image: linear-gradient(rgb(255, 15, 15),rgba(222, 4, 4, 0.831),rgb(10, 2, 0) );
+    border-radius: 12px;
+}
+#qoute1:hover{
+    box-shadow:1px 2px 5px, aqua;
+    transform: scale(1.1);
+    cursor: pointer;
+    box-shadow: 2px 5px 10px rgb(20, 172, 134);
+}
+.restaurant{
+margin-top: 15px; 
+ margin-left: 50px;
+padding-left: 30px;
+float:left;
+display: flex;
+margin-bottom: 20px;
+}
+.name2{
+ border: 5px ridge rgb(243, 237, 237);
+ border-radius:12px ;
+ box-sizing:content-box;
+ box-shadow: 2px 5px whitesmoke;
+    
+}
+.name2:hover{
+    transform: scale(1.1);
+    box-shadow: 1px  5px 10px rgb(255, 8, 8);
+
+}
+.top{
+    margin-left: 1150px;
+   text-decoration: none;
+    border: 1px ridge red;
+    border-radius:12px;
+    background-color: black;
+    color: white;
+}
+.submit {
+    text-align: center;
+    text-decoration: none;
+    color: aliceblue;
+    margin-left: 200px;
+    border-radius: 12px;
+    border:1px solid black;
+    background-image: linear-gradient(rgb(248, 36, 36),rgb(245, 64, 64));
+}
+.rating{
+    margin-left: 800px;
+    border:2px ridge red;
+    border-radius: 60px;
+    background-image: linear-gradient(rgb(252, 244, 0),rgb(243, 139, 139));
+    float: right;
+    border: 0.5px solid rgb(244, 230, 230);
+    border-radius:12px ;
+    margin-right: 30px;
+    background-image:linear-gradient(orange,red);
+    color: white;
+    text-decoration: none;
+    box-sizing: content-box;
+}
+
+    .about{
+        border: 2px solid rgb(255, 249, 249);
+    background-color: rgb(226, 238, 243);
+    border-radius: 12px;
+    box-shadow: 5px 7px rgb(43, 42, 42);
+
+
+}
+#aboutus{
+    margin-top: 10px;
+}
+#ordernow{
+    text-decoration:none;
+    color: rgb(229, 231, 233);
+    border-radius: 12px;
+    text-align:center;
+    box-shadow: 5px 6px rgb(147, 146, 146);
+    margin-left: 50px;
+    margin-right: 500px;
+    padding: 10px;
+    background-image:linear-gradient(orange,red);    
+}
+#ordernow:hover{
+    transform:scale(1.1);
+    text-shadow: rgb(245, 245, 245);
+    text-decoration:none;
+    box-shadow: 2px 5px 10px rgb(20, 172, 134);
+cursor: pointer;
+}
+.now
+{
+    text-decoration: none;
+}
+.social 
+{
+    margin-left: 50px;
+    border: 1px solid beige;
+    text-decoration: none;
+    color: aliceblue;
+    background-image:linear-gradient(rgb(178, 178, 194),rgb(11, 1, 1));
+   border-radius: 12px;
+   padding-right: 30px;
+   padding-left: 30px;
+}
+
+#footer{
+    background-image: linear-gradient(rgba(193, 193, 193, 0.767),rgba(104, 104, 104, 0.598));
+    margin-left: -10px;
+    margin-bottom: 300px;
+    height: 450px;
+}
+#header{
+    height: 100px;
+    width: 40px;
+    font-size: 30px;
+    font-family: 'Segoe UI';
+    margin-left:30px;
+    padding-top:10px;
+    font:bolder;
+}
+.country{
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-left: 700px;
+    display:flex;
+}
+.inline{
+    display: flex;
+}
+.country1{
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    display:flex;
+}
+.navigation{
+    margin-left: 30px;
+   padding-left: 10px;
+    font-size: 15px;
+    margin-top:20px;
+    color: rgb(0, 0, 0);
+    font:message-box;
+    display: flex;
+    gap: 100px;
+}
+.navigation:hover{
+    cursor:inherit;
+
+}
+.abo{
+    text-decoration: none;
+    color: #2b2b2b76;
+}
+
+
+</style>
+</head>
+<body>
+    <div id="top">
+        <h1 id="title">zomato</h1>
+    <p id="subtitle">Find the best restaurants, cafes and bars in Bengaluru</p>
+    <input type="search" placeholder="search items🔍 " class="box" > 
+    <input list="bengaluru" placeholder="select location📌" class="box">
+    
+    <div class="back">
+        <div class="nav">
+            <a href="login.html">Login</a>
+            <a href="signup.html">Sign up</a>    
+            <a href="#social">Social media</a>
+            <a href="#contact">contact</a>
+            <a href="#aboutus">About us</a>
+            <a href="index.html">Home</a>
+        </div>
+    </div>
+    <br><br>
+        <h1>Popular Night clubs Near By You</h1>
+            <h4 id="qoute1"> Don't take option Choose Your Best</h4>
+            <div class="res">
+                <div class="restaurant">
+                    <div class="name2"> 
+                            <a href="#"><img src="club1.png" alt="res" height="250" width="300"></a>
+                            <p id="item1"><input type="checkbox"> akatski club only for entry 999/- </p>   
+                    </div>
+                </div>
+                    <div class="restaurant">
+                            <div class="name2"> 
+                                <a href="#"><img src="club2.jpg" alt="res" height="250" width="300"></a>
+                                <p id="item1"><input type="checkbox">snake club only for entry 999/--</p>   
+                            </div>
+                    </div>
+                        <div class="restaurant">
+                            <div class="name2"> 
+                                <a href="#"><img src="club3.jpg" alt="res" height="250" width="300"></a>
+                                <p id="item1"><input type="checkbox">dragon  club only for entry 999/-</p>   
+                            </div>
+                        </div>
+                        <div class="restaurant">
+                            <div class="name2"> 
+                                <a href="#"><img src="pub1.jpg" alt="res" height="250" width="300"></a>
+                                <p id="item1"><input type="checkbox">luffy club only for entry 999/-</p>   
+                            </div>
+                        </div>
+                        <div class="restaurant">
+                            <div class="name2"> 
+                                <a href="#"><img src="pub4.jpg" alt="res" height="250" width="300"></a>
+                                <p id="item1"><input type="checkbox">gojo's club only for entry 999/-</p>   
+                            </div>
+                        </div>
+                        <div class="restaurant">
+                            <div class="name2"> 
+                                <a href="#"><img src="pub3.jpg" alt="res" height="250" width="300"></a>
+                                <p id="item1"><input type="checkbox">yuji's club </p>   
+                            </div>              
+                        </div>
+
+                        <br><br><br><br><br>
+            </div>
+            <img src="deliverylogo.jpg" alt="" width="300" height="200">
+            <a href="booknow.html" class="now" > <p  id="ordernow">book now</p></a>
+            <br><br><br>
+            <div id="footer">
+                <div id="header">
+                    <b>zomato</b>
+                    <div class="inline">  
+                        <input list="Country"  class="country" placeholder=" Country">
+            <datalist id="Country">
+            <option>India</option>
+            <option>America</option>
+            <option>U.K</option>
+            <option>Arab</option>
+            <option>Russia</option>
+            <option>Spain</option>
+            <option>Japan</option>
+            <option>china</option>
+            <option>france</option>
+            <option>Canada</option>
+            </datalist>
+            <input list="lang" class="country1" placeholder="Language">
+            <datalist id="lang">
+            <option>English</option>
+            <option>Hindi</option>
+            <option>Spanish</option>
+            <option>French</option>
+            <option>Russian</option>
+            <option>Arab</option>
+            <option>Japanesse</option>
+            </datalist>
+            </div>
+            </div>
+            
+            <div class="navigation">
+                <div>
+                        <p>ABOUT ZOMATO</p> 
+                                                   <a href="https://www.zomato.com/who-we-are"  class="abo">Who We Are </a><br>
+                                                   <a href="https://blog.zomato.com/"  class="abo">Bolg</a><br>
+                                                   <a href="https://www.zomato.com/careers" class="abo">Work With Us</a><br>
+                                                   <a href="https://www.zomato.com/investor-relations" class="abo">Investor Relations</a><br>
+                                                   <a href="https://www.zomato.com/report-fraud" class="abo">Report Fraud</a><br>
+                                                   <a href="https://blog.zomato.com/press-kit" class="abo">Press Kit</a><br>
+                                                   <a href="https://www.zomato.com/contact" class="abo">Contact Us</a><br>
+                 </div>
+                    <div>
+                        <p>ZOMAVERSE</p>
+                        <a href="index.html" class="abo">Zomato</a><br>
+                        <a href="https://blinkit.com/" class="abo">Blinkit</a><br>
+                        <a href="https://www.feedingindia.org/" class="abo">Feeding Back</a><br>
+                        <a href="https://www.hyperpure.com/" class="abo">Hyperpure</a><br>
+                        <a href="https://www.zomato.com/zomaland" class="abo">Zomaland</a><br>
+                    </div>
+                    <div>
+                        <p >FOR RESTAURANTS</p>
+                        <a href="https://www.zomato.com/partner-with-us" class="abo">Partner With Us</a><br>
+                        <a href="https://play.google.com/store/apps/details?id=com.application.services.partner&hl=en_IN&gl=US&pli=1" class="abo">Apps For you</a><br>
+                        <p>FOR ENTERPRISES</p>
+                        <a href="https://www.zomato.com/enterprise-solutions" class="abo">Zomato For Enter prise</a><br>
+                    </div>
+                    <div>
+                        <p>LEARN MORE</p>
+                       <a href="https://www.zomato.com/policies/privacy/" class="abo">Privacy</a><br>
+                       <a href="https://www.zomato.com/policies/security/" class="abo">Security</a><br>
+                       <a href="https://www.zomato.com/policies/terms-of-service/" class="abo">Terms</a><br>
+                       <a href="https://www.zomato.com/directory" class="abo">SiteMap</a><br>
+                    </div>
+                    <div>
+                        <p  id="social">SOCIAL LINKS</p>
+                        <a href="https://in.linkedin.com/company/zomato" class="abo"><img src="icons8-linked-in-48.png" height="30px" width="25px"></a>
+                        <a href="https://www.instagram.com/zomato/" class="abo"><img src="icons8-instagram-48.png" height="30px" width="25px"></a>
+                        <a href="https://twitter.com/zomato" class="abo"><img src="icons8-twitter-48.png" height="30px" width="25px"></a>
+                        <a href="https://www.youtube.com/zomato" class="abo"><img src="icons8-youtube-48.png" height="30px" width="25px"></a>
+                        <a href="https://www.facebook.com/zomato" class="abo"><img src="icons8-facebook-48.png" height="30px" width="25px"></a>
+                        <br><br>
+                        <a href="https://apps.apple.com/in/app/zomato-food-delivery-dining/id434613896?_branch_match_id=1273318233941356031&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXT8pL1ssp0U%2FJL8%2FLyU9M0a3Kz00sydfNzC8GAFKYbuoiAAAA" class="abo"><img src="appstore.png"height="40px" width="140px" ></a><br>
+                        <a href="https://play.google.com/store/apps/details?id=com.application.zomato&_branch_match_id=1273318233941356031&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXT8pL1ssp0U%2FJL8%2FLyU9M0a3STcxLKcrPTAEABp6kzyEAAAA%3D" class="abo"><img src="google play .png"height="40px" width="140px"></a>
+                    </div>     
+            </div>
+            <hr style="margin-left: 50px; margin-right: 50px;"><br>
+            <p style="font:status-bar; margin-left: 35px;" >By continuing past this page, you agree to our Terms of Service, Cookie Policy, 
+                Privacy Policy and Content Policies. All trademarks are properties of their respective owners. 
+                2008-2024 © Zomato™ Ltd. All rights reserved.</p>
+            </div> 
+            
+            
+            
+        
+<div class="about" > 
+    <h1 id="aboutus"><u>About Us</u></h1>
+    <p> <b><i>Zomato</i></b> was founded in 2008 by <mark> Deepinder Goyal</mark> and <mark>Pankaj Chaddah </mark>in Delhi, India.
+   Originally known as "Foodiebay," the platform started as an online restaurant discovery service
+    Over the years, Zomato has expanded its services globally. 
+    It operates in numerous countries, serving as a comprehensive food discovery and delivery platform.
+    Like many food delivery platforms, Zomato faces challenges related to competition, delivery logistics,
+     and regulatory compliance. The industry is dynamic, and companies in this space
+      often adapt to changing market conditions.
+    Zomato has built an active user community through its review and rating system. 
+    Users can contribute to the platform by sharing their dining experiences and recommendations.
+   <u><b> Technology and Innovation:</b></u>
+   Zomato employs technology to enhance user experience, including features 
+   like real-time order tracking, personalized recommendations, and in-app promotions.
+   <u>Acquisitions</u> Zomato has engaged in acquisitions to strengthen its position
+    in the market. For instance, it acquired the Indian operations of Uber Eats in 2020.
+   Zomato has played a significant role in transforming the way people discover, choose,
+    and order food, making it a prominent player in the online food services industry.
+    It continues to evolve and expand its services to meet the changing demands of consumers
+    </p>       
+   <p>
+     Zomato is an Indian food aggregator and delivery company that connects customers, 
+     restaurant partners, and delivery partners. Zomato's mission is "better food for more people". 
+   Zomato was founded in 2008 by Deepinder Goyal and Pankaj Chaddah. It launched in 2010.
+    Zomato's services include: 
+   Information: Restaurant information, menus, and user reviews
+   Food delivery: Delivery options from partner restaurants in over 1,000 Indian cities and towns
+   Zomato's key people include: 
+   Founder and Chief Executive Officer: Deepinder Goyal
+   Chief Operating Officer: Surobhi Das
+   Chief Technology Officer: Gunjan Patidar
+   Zomato's tagline is "Never have a bad meal".
+   </p>     
+    
+          <summary><b><mark>Features</mark></b></summary>
+         <h1>Benifits</h1>
+              <ul>
+                <li>Easy to find tasty food items</li>
+                <li> Available Fast Delivery</li>
+                <li>Customer Friendly</li>
+                <li>Afforadable Prices</li>
+              </ul>
+</div>
+<br><br>
+<div class="about">
+    <h1 id="contact">📞Contact </h1>
+    <b><i><h3>For More Info Contact Us</h3></i></b>
+    <b>Address of Head Offices</b>
+    <div >
+    <pre>
+    outh City 1, Gurugram 
+    Genpact Sector 65, Gurugram
+    Genpact, Sitapura, Jaipur
+    PNB, Gurugram
+    Vipul Tech Square Sector 43,
+    Golf Course Road    
+    </pre>
+    </div>
+    <h4>Another addresses</h4>
+    <div>
+    <pre>
+    Ground Floor,Tower C,                                     
+    DLF Phase 5, Gurugram                
+    Sohna Road, Gurugram                 
+    PNB, Gurugram     
+    </pre> 
+    </div>              
+    </div>
+    <br><br>
+    <div class="about">
+    <legend ><h1 class="Social">Social Media</h1></legend>                       
+    <a href="https://www.zomato.com/contact" class="social">
+     <b >For Any Complaints click here </b></a>
+    <input list="lang" placeholder="&nbsp;Language" >
+    <datalist id="lang">
+    <option>English</option>
+    <option>Hindi</option>
+    <option>Spanish</option>
+    <option>French</option>
+    <option>Russian</option>
+    <option>Arab</option>
+    <option>Japanesse</option>
+    </datalist>
+    <input list="Country" placeholder="Country">
+    <datalist id="Country">
+    <option>India</option>
+    <option>America</option>
+    <option>U.K</option>
+    <option>Arab</option>
+    <option>Russia</option>
+    <option>Spain</option>
+    <option>Japan</option>
+    <option>china</option>
+    <option>france</option>
+    <option>Canada</option>
+    </datalist>
+    <br><br>
+    </div>
+    <br><br>
+    <div class="about">
+    <u> <h1>Ratings</h1></u>
+    <form action="thankyou3.html" target="_blank">
+        <div class="rating">
+        <input list="rating" placeholder="             Rate us" required>
+        <datalist id="rating" >
+         <option>&#9733;&#9733;&#9733;&#9733;&#9733;</option>
+         <option>&#9733;&#9733;&#9733;&#9733;</option>
+         <option>&#9733;&#9733;&#9733;</option>
+         <option>&#9733;&#9733;</option>
+         <option>&#9733;</option>
+     </datalist>
+    
+    <div><a href="" class="submit">Submit</a></div>    
+     </form>
+    </div>
+    
+    <img src="user image.png" alt="" height="50" width="50" > 
+     <big>Sagar</big>
+    <p>
+      ⭐⭐⭐<br>
+      nice service ,nice restaurant<a href="index.html">  @zomato</a> <br>
+      <input type="text" placeholder="Replay" id="replay">
+      <a href="submit.html"><button>send</button></a>
+    </p>
+    <img src="user image.png" alt="" height="50" width="50" > 
+    <big>Sathish</big>
+    <p>
+    ⭐<br>
+    good restaurant <br>
+    <input type="text" placeholder="Replay" id="replay">
+    <a href="submit.html"><button>send</button></a>
+    </p>
+    <img src="user image.png" alt="" height="50" width="50" > 
+    <big>Karthik</big>
+    <p>
+    ⭐⭐⭐<br>
+    awesome  restaurants and nice staff behavior
+    <input type="text" placeholder="Replay" id="replay">
+    <a href="submit.html"><button>send</button></a>
+    </p>
+    <img src="user image.png" alt="" height="50" width="50" > 
+    <big>Chenchu</big>
+    <p>
+    ⭐⭐⭐⭐⭐<br>
+    wow wow wow just looking like wow
+    <input type="text" placeholder="Replay" id="replay">
+    <a href="submit.html"><button>send</button></a>
+    </p>
+    <img src="user image.png" alt="" height="50" width="50" > 
+    <big>Aseef</big>
+    <p>
+    ⭐⭐⭐⭐⭐<br>
+    East or west Zomato is the best <br>
+    <input type="text" placeholder="Replay" id="replay">
+    <a href="submit.html"><button>send</button></a>
+    </p>
+    
+    </div>
+    </div>
+    
+    <div class="about">
+    <center><h1 id="terms">Terms of Service</h1></center><hr>
+    <center><i>Last updated on March 31, 2023</i></center>
+    <h3>1.Acceptance of terms</h3>
+    <p>
+        Thank you for using Zomato. These Terms of Service (the "Terms") are intended to make you aware of your legal rights and responsibilities with respect to your access to and use of the Zomato website at <a href="index.html">www.zomato.com </a>
+        (the "Site") and any related mobile or software applications ("Zomato Platform") including but not limited to delivery of information via the website whether existing now or in the future that link to the Terms (collectively, the "Services").
+    <b>
+        These Terms are effective for all existing and future Zomato customers, including but without limitation to users having access to 'restaurant business page' to manage their claimed business listings.
+    </b>
+    Please read these Terms carefully. By accessing or using the Zomato Platform, you are agreeing to these Terms and concluding a legally binding contract with Zomato Limited (formerly known as Zomato Private Limited and Zomato Media Private Limited) and/or its affiliates (excluding Zomato Foods Private Limited) (hereinafter collectively referred to as "Zomato"). You may not use the Services if you do not accept the Terms or are unable to be bound by the Terms. Your use of the Zomato Platform is at your own risk, including the risk that you might be exposed to content that is objectionable, or otherwise inappropriate.
+    
+    In order to use the Services, you must first agree to the Terms. You can accept the Terms by:
+    <ul>
+        <li>Clicking to accept or agree to the Terms, where it is made available to you by Zomato in the user interface for any particular Service; or
+            Actually using the Services. In this case, you understand and agree that Zomato will treat your use of the Services as acceptance of the Terms from that point onwards.</li>
+    </ul>
+    </p>
+    <hr>
+    <h3>and how we use it</h3><hr>
+    <big><p>Zomato Limited ("Zomato," the "Company," "we," "us," and "our”) 
+        collects several types of information from and about users of our Services, including:</p></big>
+    
+    <ul><li>
+        Your Personal Information("PI") - Personal Information is the information that can be associated with 
+        a specific person and could be used to identify that specific person whether from that data, 
+        or from the data and other information that we have, or is likely to have access to.
+        We do not consider personal information to include information that has been made anonymous or
+        aggregated so that it can no longer be used to identify a specific person, whether in combination
+        with other information or otherwise.
+    </li></ul>
+    
+        <ul><li>
+        Information about your internet connection, the equipment you use to access our Services and your usage details.</li></ul>
+    <big>    We collect this information:
+    </big>
+    <ul><li>
+    directly from you when you provide it to us; and/or
+    automatically as you navigate through our Services (information collected automatically may include usage details,
+     IP addresses and information collected through cookies, web beacons and other tracking technologies).
+    </li></ul>
+    <h3>Information You Provide to Us</h3>
+    <ul><li>
+    <b>Your account information: </b>Your full name, email address, postal code, password and other information you may provide with your account,
+     such as your gender, mobile phone number and website. Your profile picture that will be publicly displayed 
+     as part of your account profile. You may optionally provide us with this information through third-party sign-in services
+      such as Facebook and Google Plus. In such cases, we fetch and store whatever information is
+    </li></ul>
+    <ul><li>
+    <b>
+        Your preferences:</b> Your preferences and settings such as time zone and language.
+    <b><h3 id="down">Your content:</h3>
+    </b> Information you provide through our Services, including your reviews, photographs, comments, lists, followers, the users you follow, current and prior restaurant reservation details, food ordering details and history, favorite restaurants, special restaurant requests, contact information of people you add to, or notify of, your restaurant reservations through our Services, names, and other information you provide on our Services, and other information in your account profile.
+    </li></ul>
+    <ul><li>
+    <b>Your searches and other activities:</b> The search terms you have looked up and results you selected.
+    <b>Your browsing information:</b> How long you used our Services and which features you used; the ads you clicked on.
+    <b>Your communications: </b>Communications between you and other users or merchants through our Services; your participation in a survey, poll, sweepstakes, contest or promotion scheme; your request for certain features (e.g., newsletters, updates or other products); your communication with us about employment opportunities posted to the services.
+    <b>Your transactional information:</b> If you make reservations or purchases through our Services, we may collect and store information about you to process your requests and automatically complete forms for future transactions, including (but not limited to) your phone number, address, email, billing information and credit or payment card information. This information may be shared with third-parties which assist in processing and fulfilling your requests, including PCI compliant payment gateway processors. When you submit credit or payment card information, we encrypt the information using industry standard technologies, as further described below under "Payment Card Information." If you write reviews about businesses with which you conduct transactions through our Services, we may publicly display information that you transacted with those businesses.
+    <b>Your Public Posts:</b> You also may provide information (such as ratings, reviews, tips, photos, comments, likes, bookmarks, friends, lists, etc.) to be published or displayed (hereinafter, "posted") on publicly accessible areas of our Services, or transmitted to other users of our Services or third-parties (collectively, "User Contributions"). Your User Contributions are posted on and transmitted to others at your own risk. Although we limit access to certain pages, you may set certain privacy settings for such information by logging into your account profile. Please be aware that no security measures are perfect or impenetrable (see "Security" section below). Additionally, we cannot control the actions of other users of our Services with whom you may choose to share your User Contributions. Therefore, we cannot and do not guarantee that your User Contributions will not be viewed by unauthorized persons. We may display this information on the Services, share it with businesses, and further distribute it to a wider audience through third party sites and services. You should be careful about revealing any sensitive details about yourself in such postings.
+    
+    </div>
+    <br>
+    <a href="#top" class="top">back to top</a>    
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

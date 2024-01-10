@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> ZOMATO //sign-up</title>
+    <link rel="icon" href="image/zomatologo.png">
+    <style>
+        *{
+    margin: 0px;
+    padding: 0px;
+    
+}
+.back{
+    background-image:linear-gradient(rgb(78, 71, 71), rgba(57, 55, 55, 0.995)), url("imgas/Zomato\ background.png");
+    height: 600px;
+}
+marquee{
+    color: #fcfcfc;
+    font-family: cursive;
+}
+.formback{
+    border-radius: 20px;
+    margin-left: 400px;
+    margin-right: 500px;
+}
+.form{
+    font-size: 20px;
+    padding-left: 30px;
+    border-radius: 50px;
+    background-color: rgba(3, 3, 3, 0.5) ;
+    color: rgb(241, 231, 231);
+    padding-bottom: 80px;
+}
+.input{
+    height: 35px;
+    width: 290px;
+    background:linear-gradient(rgba(238, 0, 0, 0.5), rgba(194, 22, 22, 0.5)), transparent;
+    color: rgb(235, 226, 226);
+    padding-right: 20px;
+}
+button{
+    margin-left: 40px;
+    height: 30px;
+    width: 200px;
+    background-color: rgb(255, 15, 15);
+    border: 3px rgb(213, 195, 195) ridge;
+    
+}
+button:hover{
+    cursor: pointer;
+    background-color: transparent;
+    color: rgb(235, 226, 216);
+    border-radius: 20px;
+}
+.remember{
+    height: 20px;
+    padding-top: 50px;
+    margin-top: 20px;
+}
+.need{
+    padding-left: 80px;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+    </style>
+</head>
+<div class="back">
+    <marquee behavior="" direction="">Order your food from best restaurants</marquee><br>
+    <div class="formback">
+        <div class="form"><br>
+        <form action="index.html">
+            <h2>sign-up</h2><br><br>
+            <input type="text" id="cname" class="input" placeholder="enter name" pattern="[A-Z]{1}[a-z]{3,15}"  required>
+            <input type="text" id="cemail" class="input"placeholder="example0-9@mail.com" >
+            <input type="text" id="cphone"  class="input"placeholder="enter phone number" pattern="[6-9]{1}[0-9]{9}"  required>
+            <input type="text" id="password" class="input"placeholder="enter new password" required pattern="[A-Z]{1}[a-z]{3,6}[@#$%&*]{1}[0-9]{4,8}">
+<input type="text" id="otp" placeholder="enter otp" class="input" required pattern="[0-9]{6}">
+            <button>Sign-in</button><br>
+        </form>
+            <input  type="checkbox" class="remember" checked><label class="remember" for="">Remember me</label>
+            <a  class="need" href="zomato-forgoten.html">Need help?</a>
+          
+        </div>
+        
+        
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
